@@ -4,3 +4,22 @@
   - controller
   - view (layout - include)
   - profile (dev, prod)
+- step01 : file upload setting (local)
+  - FileStorageService (uploads)
+  - WebConfig (resource handler)
+- step02 : file upload page (CR) (local)
+  - ReviewController
+  - View (CREATE/READ-ONE&ALL)
+  - http://localhost:8080/reviews
+- step03 : file upload page (UD) (local)
+  - ReviewController
+  - View (UPDATE/DELETE)
+- step04 : exception handling
+  - white label
+  - try/catch
+  - ExceptionHandler
+  - @ControllerAdvice
+- step05 : S3
+  - Supabase Object Storage
+  - FileStorageService (Local, S3)
+  - S3FileController
